@@ -11,6 +11,7 @@ abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
 date: "2030-06-01T13:00:00Z"
 date_end: "2030-06-01T15:00:00Z"
 all_day: false
+draft: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -53,10 +54,6 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
-{{% alert note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /alert %}}
 
 Slides can be added in a few ways:
 

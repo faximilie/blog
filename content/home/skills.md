@@ -15,21 +15,56 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
+  icon = "python"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
-[[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Python"
+  description = "75%"
 
+[[feature]]
+  icon = "java"
+  icon_pack = "fab"
+  name = "Java"
+  description = "80%"
+
+[[feature]]
+  icon = "linux"
+  icon_pack = "fab"
+  name = "Linux"
+  description = "90%"
+
+[[feature]]
+  icon = "code"
+  icon_pack = "fas"
+  name = "Lisp"
+  description = "40%"
+
+[[feature]]
+  icon = "terminal"
+  icon_pack = "fas"
+  name = "Bash"
+  description = "80%"
+
+[[feature]]
+  icon = "aws"
+  icon_pack = "fab"
+  name = "Amazon Web Services"
+  description = "80%"
+
+[[feature]]
+  icon = "shield-alt"
+  icon_pack = "fas"
+  name = "Security"
+  description = "90%"
+
+[[feature]]
+  icon = "robot"
+  icon_pack = "fas"
+  name = "Automation"
+  description = "70%"
+
+[[feature]]
+  icon = "check-square"
+  icon_pack = "far"
+  name = "CI/CD"
+  description = "70%"
 +++
