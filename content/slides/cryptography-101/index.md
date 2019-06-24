@@ -22,13 +22,14 @@ slides:
 ---
 ## Brief history
 
+---
 
 ### Cesar Cipher
 
 -   Used by Cesar for personal communication in the 1st Century BCE
 -   Simple substitution cipher
 -   Can be easily cracked based on character frequency
-
+---
 
 ### Enigma
 
@@ -36,6 +37,7 @@ slides:
 -   Complex substitution cipher
 -   Fatal flaw that no letter could be itself
 -   Cracked by Alan Turing and his Team from the UK
+---
 
 
 ### The big change
@@ -43,6 +45,7 @@ slides:
 -   Up until this point all ciphers where symmetric
 -   Means the same key is used to encrypt and decrypt
 -   How to share the key securely?
+---
 
 
 ### RSA
@@ -50,6 +53,7 @@ slides:
 -   The first asymmetric cipher
 -   Developed in 1977
 -   Has two keys instead of one
+---
 
 
 ---
