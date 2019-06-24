@@ -18,53 +18,53 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "75%"
+  description = "5 Years experience"
 
 [[feature]]
   icon = "java"
   icon_pack = "fab"
   name = "Java"
-  description = "80%"
+  description = "6 Years experience"
 
 [[feature]]
   icon = "linux"
   icon_pack = "fab"
   name = "Linux"
-  description = "90%"
+  description = "8 Years experience"
 
 [[feature]]
   icon = "code"
   icon_pack = "fas"
   name = "Lisp"
-  description = "40%"
+  description = "12 Months experience"
 
 [[feature]]
   icon = "terminal"
   icon_pack = "fas"
   name = "Bash"
-  description = "80%"
+  description = "6 Years experience"
 
 [[feature]]
   icon = "aws"
   icon_pack = "fab"
   name = "Amazon Web Services"
-  description = "80%"
+  description = "18 Months experience"
 
 [[feature]]
   icon = "shield-alt"
   icon_pack = "fas"
   name = "Security"
-  description = "90%"
+  description = "8 Years experience"
 
 [[feature]]
   icon = "robot"
   icon_pack = "fas"
   name = "Automation"
-  description = "70%"
+  description = "3 Years Experience"
 
 [[feature]]
   icon = "check-square"
   icon_pack = "far"
   name = "CI/CD"
-  description = "70%"
+  description = "18 Months experience"
 +++
