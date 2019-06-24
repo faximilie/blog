@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Seeking Employment
+role: Cloud Engineer
 
 # Organizations/Affiliations
-#organizations:
-#- name: Stanford University
-#  url: ""
+organizations:
+- name: AC3
+  url: "https://www.ac3.com.au/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I enjoy automation, programming, reverse engineering and security.
