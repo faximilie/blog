@@ -61,4 +61,4 @@ email: ""
 #- Visitors
 ---
 
-Patrick Childs is a keen young mind, looking for ways to improve the world using Software. His many interests include Automation, Linux, Programming, Security, Reverse Engineering and more.
+I am always looking for opportunities to learn and ways to improve the world using Software. My many interests include Automation, Linux, Programming, Security, Reverse Engineering, the Cloud and more.
