@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Cloud Engineer"
+  title = "DevOps Engineer"
   company = "AC3"
   company_url = "https://www.ac3.com.au"
   location = "Melbourne"
@@ -26,6 +26,7 @@ date_format = "Jan 2006"
   description = """
   * Working to automate software deployment to AWS and Azure
   * Working to design, construct, improve and maintain Cloud CI/CD pipelines
+  * Work with Ansible, Cloudformation, CFN-DSL, and AWS CDK
  """
 [[experience]]
   title = "Associate Technical Operations Engineer"

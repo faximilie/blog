@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Cloud Engineer
+role: DevOps Engineer
 
 # Organizations/Affiliations
 organizations:
