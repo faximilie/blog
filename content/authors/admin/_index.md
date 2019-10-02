@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: DevOps Engineer
+role: SecDevOps Engineer
 
 # Organizations/Affiliations
-organizations:
-- name: AC3
-  url: "https://www.ac3.com.au/"
+#organizations:
+#- name: AC3
+#  url: "https://www.ac3.com.au/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I enjoy automation, programming, reverse engineering and security.

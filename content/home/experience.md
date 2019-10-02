@@ -22,7 +22,8 @@ date_format = "Jan 2006"
   company = "AC3"
   company_url = "https://www.ac3.com.au"
   location = "Melbourne"
-  date_start = "2018-02-01"
+  date_start = "2019-06-01"
+  date_end = "2019-09-23"
   description = """
   * Working to automate software deployment to AWS and Azure
   * Working to design, construct, improve and maintain Cloud CI/CD pipelines
