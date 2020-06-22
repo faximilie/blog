@@ -42,11 +42,11 @@ slides:
 ---
 
 
-### The big change
 
 -   Up until this point all ciphers where symmetric
 -   Means the same key is used to encrypt and decrypt
 -   How to share the key securely?
+
 
 ---
 
