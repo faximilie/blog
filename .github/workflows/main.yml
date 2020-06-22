@@ -18,3 +18,4 @@ jobs:
         githubToken: ${{ secrets.PERSONAL_TOKEN }}
         cname: faximili.me
         repo: faximilie/faximilie.github.io
+        branch: master
