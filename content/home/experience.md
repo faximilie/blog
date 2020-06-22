@@ -20,10 +20,10 @@ date_format = "Jan 2006"
 [[experience]]
   title = "DevOps Engineer"
   company = "Deloitte"
-#  company_url = ""
+  company_url = "http://www.deloitte.com.au"
   location = "Melbourne"
   date_start = "2019-11-1"
-#  description = """"""
+  description = """test"""
 [[experience]]
   title = "DevOps Engineer"
   company = "AC3"
