@@ -6,13 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+      with:
+        submodules: true
     # - name: Filters for GitHub Actions
     #   uses: actions/bin/filter@master
     #   with:
     #     args: branch master
-    - name: hugo-deploy-gh-org-pages
-      uses: StevenACoffman/hugo-deploy-gh-org-pages@v1.0.3
-      env:
-        DEPLOY_KEY_PRIVATE: ${{ secrets.DEPLOY_KEY_PRIVATE }}
-        EMAIL: ${{ secrets.EMAIL }}
-        HUGO_VERSION: 0.56.3
+    - name: Publish Site
+      uses: chabad360/hugo-gh-pages@master
+      with:
+        githubToken: ${{ secrets.PERSONAL_TOKEN }}
+        cname: faximili.me
+        repo: faximilie/faximilie.github.io
