@@ -13,9 +13,8 @@ jobs:
     #   with:
     #     args: branch master
     - name: Publish Site
-      uses: chabad360/hugo-gh-pages@master
+      uses: peaceiris/actions-hugo@v2
       with:
-        githubToken: ${{ secrets.PERSONAL_TOKEN }}
-        cname: faximili.me
-        repo: faximilie/faximilie.github.io
-        branch: master
+        github_token: ${{ secrets.PERSONAL_TOKEN }}
+        publish_dir: ./public
+        extended: true
