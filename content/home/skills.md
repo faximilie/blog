@@ -12,59 +12,40 @@ subtitle = ""
 # 
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]]
-  icon = "python"
+  icon = "r-project"
   icon_pack = "fab"
-  name = "Python"
-  description = "5 Years experience"
-
+  name = "R"
+  description = "90%"
+  
 [[feature]]
-  icon = "java"
-  icon_pack = "fab"
-  name = "Java"
-  description = "6 Years experience"
-
-[[feature]]
-  icon = "linux"
-  icon_pack = "fab"
-  name = "Linux"
-  description = "8 Years experience"
-
-[[feature]]
-  icon = "code"
+  icon = "chart-line"
   icon_pack = "fas"
-  name = "Lisp"
-  description = "12 Months experience"
-
+  name = "Statistics"
+  description = "100%"  
+  
 [[feature]]
-  icon = "terminal"
+  icon = "camera-retro"
   icon_pack = "fas"
-  name = "Bash"
-  description = "6 Years experience"
+  name = "Photography"
+  description = "10%"
 
-[[feature]]
-  icon = "aws"
-  icon_pack = "fab"
-  name = "Amazon Web Services"
-  description = "18 Months experience"
+# Uncomment to use emoji icons.
+# [[feature]]
+#  icon = ":smile:"
+#  icon_pack = "emoji"
+#  name = "Emojiness"
+#  description = "100%"  
 
-[[feature]]
-  icon = "shield-alt"
-  icon_pack = "fas"
-  name = "Security"
-  description = "8 Years experience"
+# Uncomment to use custom SVG icons.
+# Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
+# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
+# [[feature]]
+#  icon = "your-custom-icon-name"
+#  icon_pack = "custom"
+#  name = "Surfing"
+#  description = "90%"
 
-[[feature]]
-  icon = "robot"
-  icon_pack = "fas"
-  name = "Automation"
-  description = "3 Years Experience"
-
-[[feature]]
-  icon = "check-square"
-  icon_pack = "far"
-  name = "CI/CD"
-  description = "18 Months experience"
 +++
