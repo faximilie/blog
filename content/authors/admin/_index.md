@@ -56,6 +56,6 @@ email: ""
 # user_groups:
 # - Researchers
 # - Visitors
-#---
+---
 
 I am always looking for opportunities to learn and ways to improve the world using Software. My many interests include Automation, Linux, Programming, Security, Reverse Engineering, the Cloud and more.
