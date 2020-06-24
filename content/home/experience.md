@@ -18,6 +18,16 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "SecDevOps Engineer"
+  company = "Deloitte"
+  company_url = "https://www.deloitte.com.au"
+  location = "Melbourne"
+  date_start = "2020-02-16"
+  description = """
+  * Working to automate software deployment to AWS and Azure
+  * Working to design, construct, improve and maintain Cloud CI/CD pipelines
+ """
+[[experience]]
   title = "DevOps Engineer"
   company = "AC3"
   company_url = "https://www.ac3.com.au"
