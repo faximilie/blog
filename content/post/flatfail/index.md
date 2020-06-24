@@ -6,7 +6,7 @@ subtitle = "How flatpak fails to provide any additional security"
 summary = "How flatpak provides security theatre, and actually increases one's attack surface."
 
 date = 2019-05-22T21:54:29-04:00
-draft = false
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["admin"]
