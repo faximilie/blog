@@ -53,9 +53,9 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-> user_groups:
-> - Researchers
-> - Visitors
----
+# user_groups:
+# - Researchers
+# - Visitors
+#---
 
 I am always looking for opportunities to learn and ways to improve the world using Software. My many interests include Automation, Linux, Programming, Security, Reverse Engineering, the Cloud and more.
