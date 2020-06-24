@@ -1,5 +1,5 @@
 +++
-title = "Mutli-media Madness"
+title = "Multi-media Madness"
 subtitle = "Watching anime has never been so hard"
 
 # Add a summary to display on homepage (optional).
@@ -62,7 +62,10 @@ It ensures watch status, and the library is synced, and will get plex to stream 
 Plex provides the backbone of my media library. Transcoding, mobile syncing, and most importantly: the plex anilist sync script.
 
 #### Plex anilist sync
-This external script will query the Plex API and ensure that Anilist is kept up to date with the watch status. The repo can be found here: https://github.com/RickDB/PlexAniSync
+This external script will query the Plex API and ensure that Anilist is kept up to date with the watch status.
+
+The repo can be found here: https://github.com/RickDB/PlexAniSync
+
 #### plex-mpv-shim
 This allows me to play videos from Plex locally on my favorite media player, while still syncing, transcoding and such.
 It's a very important feature, that allows me to really save battery on the go.
@@ -77,9 +80,13 @@ I won't say anymore on sonarr sadly, despite how amazing it really is.
 Flexget is the glue that holds most things together, it provides the mechanism of getting my Anilist watchlist into sonarr to be "procured" automagically. However there seems to be a bug which caused me to write a fix in the most horrific way.
 
 #### Flex fix
-It seems if a show already exists in sonarr it will return a 500, and give the reason. A sane program would accept this 500 and move on, knowing it was not a severe error. However flexget does not do this, it errors out when 500 is returned for *any reason* which is rather frustrating. It also expects the show details to be returned when it 200s on that same request, so one can not simply have it replace 500 status codes with 200.
+It seems if a show already exists in sonarr it will return a 500, and give the reason. A sane program would accept this 500 and move on, knowing it was not a severe error.
 
-To fix this error, you must intercept all requests, and when a 500 error occurs for an existing show, you must then lookup that existing show through the sonarr api, and return those details to flexget with a 200 http code. This python script does exactly that, acting as a proxy, listening on a port below sonarr and connecting to sonarr itself.
+However flexget does not do this, it errors out when 500 is returned for *any reason* which is rather frustrating. It also expects the show details to be returned when it 200s on that same request, so one can not simply have it replace 500 status codes with 200.
+
+To fix this error, you must intercept all requests, and when a 500 error occurs for an existing show, you must then lookup that existing show through the sonarr api, and return those details to flexget with a 200 http code.
+
+This python script does exactly that, acting as a proxy, listening on a port below sonarr and connecting to sonarr itself.
 
 Here it is below, eventually this will be put in gist, but not at the moment.
 
