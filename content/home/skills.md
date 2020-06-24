@@ -12,40 +12,59 @@ subtitle = ""
 # 
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
+  icon = "python"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
+  name = "Python"
+  description = "5 Years experience"
+
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
+  icon = "java"
+  icon_pack = "fab"
+  name = "Java"
+  description = "6 Years experience"
+
 [[feature]]
-  icon = "camera-retro"
+  icon = "linux"
+  icon_pack = "fab"
+  name = "Linux"
+  description = "8 Years experience"
+
+[[feature]]
+  icon = "code"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Lisp"
+  description = "12 Months experience"
 
-# Uncomment to use emoji icons.
-# [[feature]]
-#  icon = ":smile:"
-#  icon_pack = "emoji"
-#  name = "Emojiness"
-#  description = "100%"  
+[[feature]]
+  icon = "terminal"
+  icon_pack = "fas"
+  name = "Bash"
+  description = "6 Years experience"
 
-# Uncomment to use custom SVG icons.
-# Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
-# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-# [[feature]]
-#  icon = "your-custom-icon-name"
-#  icon_pack = "custom"
-#  name = "Surfing"
-#  description = "90%"
+[[feature]]
+  icon = "aws"
+  icon_pack = "fab"
+  name = "Amazon Web Services"
+  description = "18 Months experience"
 
+[[feature]]
+  icon = "shield-alt"
+  icon_pack = "fas"
+  name = "Security"
+  description = "8 Years experience"
+
+[[feature]]
+  icon = "robot"
+  icon_pack = "fas"
+  name = "Automation"
+  description = "3 Years Experience"
+
+[[feature]]
+  icon = "check-square"
+  icon_pack = "far"
+  name = "CI/CD"
+  description = "18 Months experience"
 +++
