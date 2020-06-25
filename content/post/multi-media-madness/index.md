@@ -88,53 +88,6 @@ To fix this error, you must intercept all requests, and when a 500 error occurs 
 
 This python script does exactly that, acting as a proxy, listening on a port below sonarr and connecting to sonarr itself.
 
-Here it is below, eventually this will be put in gist, but not at the moment.
+Here it is below.
 
-```python
-from http.server import HTTPServer, BaseHTTPRequestHandler
-from http.client import HTTPConnection
-
-from io import BytesIO
-import json
-
-
-class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
-
-    def do_GET(self):
-        self.send_response(200)
-        api_key = self.headers['X-Api-Key']
-        self.end_headers()
-        client.request('GET', self.path, headers={'X-Api-Key':api_key})
-        self.wfile.write(client.getresponse().read())
-
-
-    def do_POST(self):
-        self.send_response(200)
-        self.end_headers()
-        content_length = int(self.headers['Content-Length'])
-        body = self.rfile.read(content_length)
-        # Get API Key
-        api_key = self.headers['X-Api-Key']
-        body_json = json.loads(body.decode('utf8'))
-
-        # Strip everything but ID
-        new_body = {i:body_json[i] for i in body_json if i!='id'}
-
-        # Make a connection to sonarr on behalf of the requester
-        client.request('POST', self.path, headers={'X-Api-Key':api_key}, body=json.dumps(new_body))
-        resp = client.getresponse()
-        # If 400 we're gonna do the fix
-        if resp.status == 400:
-            resp.read()
-            # Get the details of the series from sonarr and send it back to the sender pretending they added it
-            client.request('GET', '/api/series/' + str(body_json['id']), headers={'X-Api-Key':api_key})
-            self.wfile.write(client.getresponse().read())
-        else:
-            # If it's another code we simply return what we got
-            self.wfile.write(resp.read())
-
-
-client = HTTPConnection('127.0.0.1:8989')
-httpd = HTTPServer(('127.0.0.1', 8988), SimpleHTTPRequestHandler)
-httpd.serve_forever()
-```
+{{< gist faximilie 250eee2b9694a631ad15441af0cb917e >}}
