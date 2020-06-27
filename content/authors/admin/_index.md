@@ -42,7 +42,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/faximilie
-  - icon: twitter
+- icon: twitter
   icon_pack: fab
   link: https://twitter.com/faximilie
 # Link to a PDF of your resume/CV from the About widget.
