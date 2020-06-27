@@ -33,4 +33,4 @@ projects: ["website"]
 
 Hello, this is a very simple post to say that this website is now working. Built with hugo and the Academic hugo theme.
 
-It's very simple, hosted on github pages.
+It's very simple, hosted on github pages with it automatically deployed through github actions.
