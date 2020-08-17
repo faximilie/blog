@@ -21,7 +21,7 @@ date_format = "Jan 2006"
   title = "SecDevOps Engineer"
   company = "Deloitte"
   company_url = "https://www.deloitte.com.au"
-  location = "Melbourne"
+  location = "Sydney"
   date_start = "2020-02-16"
   description = """
   * Working to automate software deployment to AWS and Azure

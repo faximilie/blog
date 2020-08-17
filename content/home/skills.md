@@ -36,7 +36,7 @@ subtitle = ""
   icon = "code"
   icon_pack = "fas"
   name = "Lisp"
-  description = "12 Months experience"
+  description = "2 Years experience"
 
 [[feature]]
   icon = "terminal"
@@ -48,7 +48,7 @@ subtitle = ""
   icon = "aws"
   icon_pack = "fab"
   name = "Amazon Web Services"
-  description = "18 Months experience"
+  description = "3 Years experience"
 
 [[feature]]
   icon = "shield-alt"
@@ -66,5 +66,5 @@ subtitle = ""
   icon = "check-square"
   icon_pack = "far"
   name = "CI/CD"
-  description = "18 Months experience"
+  description = "3 Years experience"
 +++
