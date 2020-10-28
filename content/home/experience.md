@@ -24,8 +24,10 @@ date_format = "Jan 2006"
   location = "Sydney"
   date_start = "2020-02-16"
   description = """
-  * Working to automate software deployment to AWS and Azure
+  * Working to automate software deployment to AWS
   * Working to design, construct, improve and maintain Cloud CI/CD pipelines
+  * Developing Java APIs using a Microservice architecture across a distrobuted team
+  * Ensuring security of Government infrastructure and Services
  """
 [[experience]]
   title = "DevOps Engineer"
