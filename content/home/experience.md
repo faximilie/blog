@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   description = """
   * Working to automate software deployment to AWS
   * Working to design, construct, improve and maintain Cloud CI/CD pipelines
-  * Developing Java APIs using a Microservice architecture across a distrobuted team
+  * Developing Java APIs using a Microservice architecture across a distributed team
   * Ensuring security of Government infrastructure and Services
  """
 [[experience]]
