@@ -8,9 +8,6 @@ draft = false
 summary = "Dealing with Outlook with Emacs on MacOS"
 +++
 
--   State "DONE"       from              <span class="timestamp-wrapper"><span class="timestamp">[2020-10-30 Fri 15:45]</span></span>
-
-
 ## Motivation {#motivation}
 
 So a lot of my notes and tasks will require me to reference outlook items,
