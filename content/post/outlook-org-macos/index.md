@@ -1,7 +1,7 @@
 +++
 title = "Outlook Org-mode integration on MacOS"
 author = ["admin"]
-date = "2020-10-30T15:45:00"
+date = 2020-10-30T15:45:00
 tags = ["orgmode", "outlook", "applescript", "lisp"]
 categories = ["Emacs"]
 draft = false
