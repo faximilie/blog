@@ -1,11 +1,15 @@
 +++
 title = "Outlook Org-mode integration on MacOS"
 author = ["admin"]
+date = "2020-10-30T15:45:00"
 tags = ["orgmode", "outlook", "applescript", "lisp"]
 categories = ["Emacs"]
 draft = false
 summary = "Dealing with Outlook with Emacs on MacOS"
 +++
+
+-   State "DONE"       from              <span class="timestamp-wrapper"><span class="timestamp">[2020-10-30 Fri 15:45]</span></span>
+
 
 ## Motivation {#motivation}
 
