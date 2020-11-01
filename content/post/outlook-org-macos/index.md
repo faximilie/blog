@@ -1,7 +1,7 @@
 +++
 title = "Outlook Org-mode integration on MacOS"
 author = ["admin"]
-date = 2020-10-30T15:45:00+10:00
+date = 2020-10-30T15:45:00+11:00
 tags = ["orgmode", "outlook", "applescript", "lisp"]
 categories = ["Emacs"]
 draft = false
@@ -61,7 +61,7 @@ tell application "Microsoft Outlook"
 end tell
 
 tell application "Emacs" to activate
-do shell script "/usr/local/bin/emacsclient \"org-protocol://capture?template=o&id=" & toOpen & "\""
+do shell script "/usr/local/bin/emacsclient \"org-protocol://capture?template=o&url=" & toOpen & "\""
 ```
 
 
@@ -160,5 +160,5 @@ Ideally this should be customized more for your setup, but this is what I use.
 ```emacs-lisp
 (add-to-list 'org-capture-templates '("o" "Outlook item to capture" entry
            (file+headline "~/Documents/Notes/inbox.org" "Tasks")
-           "* TODO [[outlook:%:id][%^{Item name|Email}]]" :clock-in t :clock-resume t))
+           "* TODO [[outlook:%:link][%^{Item name|Email}]]" :clock-in t :clock-resume t))
 ```
