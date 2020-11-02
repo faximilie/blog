@@ -100,7 +100,12 @@ trigger when Outlook is focused.
                             "bundle_identifiers": ["^com\\.microsoft\\.Outlook$"]
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "description": "Meta-L to copy outlook item to orgmode",
+            "manipulators": [
                 {
                     "type": "basic",
                     "from": {
