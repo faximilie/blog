@@ -147,7 +147,7 @@ if you wanted to make it less platform specific.
 This relies on MDFind which is the macos spotlight CLI, it will find it, then
 open it in outlook.
 
-```emacs-lisp
+```lisp
 (require 'ol)
 
 (org-add-link-type "outlook" 'org-outlook-open)
@@ -162,7 +162,7 @@ open it in outlook.
 
 Ideally this should be customized more for your setup, but this is what I use.
 
-```emacs-lisp
+```lisp
 (add-to-list 'org-capture-templates '("o" "Outlook item to capture" entry
            (file+headline "~/Documents/Notes/inbox.org" "Tasks")
            "* TODO [[outlook:%:link][%^{Item name|Email}]]" :clock-in t :clock-resume t))
