@@ -30,6 +30,7 @@ date_format = "Jan 2006"
   * Migrating the on-premise infrastructure to a re-deployable, re-producible and stable design.
   * Ensuring security of all services and infrastructure deployed.
   * Maintaining security compliance of our Hybrid infrastructure.
+ """
 [[experience]]
   title = "SecDevOps Engineer"
   company = "Deloitte"
