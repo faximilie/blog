@@ -19,10 +19,24 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "SecDevOps Engineer"
+  company = "Esecure"
+  company_url = "https://www.esecure.com.au/"
+  location = "Sydney"
+  date_start = "2020-04-15"
+  description = """
+  * Working to automate hybrid cloud and on-premise infrastructure.
+  * Working to design, construct, improve and maintain Hybrid CI/CD pipelines.
+  * Developing Python and Perl applications to automate infrastructure deployment.
+  * Migrating the on-premise infrastructure to a re-deployable, re-producible and stable design.
+  * Ensuring security of all services and infrastructure deployed.
+  * Maintaining security compliance of our Hybrid infrastructure.
+[[experience]]
+  title = "SecDevOps Engineer"
   company = "Deloitte"
   company_url = "https://www.deloitte.com.au"
   location = "Sydney"
   date_start = "2020-02-16"
+  date_end = "2020-04-15"
   description = """
   * Working to automate software deployment to AWS
   * Working to design, construct, improve and maintain Cloud CI/CD pipelines

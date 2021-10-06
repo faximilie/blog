@@ -14,8 +14,8 @@ role: SecDevOps Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: Deloitte
-  url: "https://www2.deloitte.com/au/en.html"
+- name: E-Secure
+  url: "https://www.esecure.com.au/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Self taught tech person, interested in FOSS, Low level Programming, Embedded Systems, Security, Game Development and more. Proudly 🏳️‍🌈
