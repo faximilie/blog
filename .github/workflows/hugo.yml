@@ -14,10 +14,9 @@ defaults:
   run:
     shell: bash
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
