@@ -51,7 +51,7 @@ date_format = "Jan 2006"
   company = "Deloitte"
   company_url = "https://www.deloitte.com.au"
   location = "Sydney"
-  date_start = "2020-02-16"
+  date_start = "2019-09-23"
   date_end = "2020-04-15"
   description = """
   * Working to automate software deployment to AWS
