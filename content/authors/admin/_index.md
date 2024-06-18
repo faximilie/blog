@@ -42,7 +42,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/faximilie
-- icon: mastadon
+- icon: mastodon
   icon_pack: fab
   link: https://infosec.exchange/@faximilie
 - icon: cv
