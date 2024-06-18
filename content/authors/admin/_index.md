@@ -13,12 +13,12 @@ superuser: true
 role: SecDevOps Engineer
 
 # Organizations/Affiliations
-organizations:
-- name: E-Secure
-  url: "https://www.esecure.com.au/"
+#organizations:
+#- name: E-Secure
+#  url: "https://www.esecure.com.au/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Self taught tech person, interested in FOSS, Low level Programming, Embedded Systems, Security, Game Development and more. Proudly 🏳️‍🌈
+bio: I'm a Proudly 🏳️‍🌈 caffeine powered hyper dork interested in FOSS, Programming, Embedded Systems, Security, Game Development and more. I'm always looking for opportunities to learn and ways to improve the world using Software. 
 
 interests:
 - Security
@@ -42,11 +42,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/faximilie
-- icon: twitter
+- icon: mastadon
   icon_pack: fab
-  link: https://twitter.com/faximilie
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
+  link: https://infosec.exchange/@faximilie
 - icon: cv
   icon_pack: ai
   link: files/cv.pdf
