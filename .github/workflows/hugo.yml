@@ -41,8 +41,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Build
-         env:
-          # For maximum backward compatibility with Hugo modules
+        env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
