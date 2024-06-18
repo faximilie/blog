@@ -18,11 +18,26 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "SecDevOps Engineer"
-  company = "Esecure"
-  company_url = "https://www.esecure.com.au/"
+  title = "Associate Penetration Tester"
+  company = "Orro Group"
+  company_url = "https://orro.group"
   location = "Sydney"
   date_start = "2020-04-15"
+  date_end = "2023-04-15"
+  description = """
+  * Performing penetration tests of bespoke applications for Financial instutions.
+  * Automating the provisioning of ephemerial containers to isolate client data.
+  * Using tools such as: Burpsuite, Nessus, Jira, and Confluence
+  * Created detailed reports with actionable recommendations for found vulnerabilities.
+  * Working in a team to meet tight client deadlines
+ """
+[[experience]]
+  title = "SecDevOps Engineer"
+  company = "E-Secure/Orro Group"
+  company_url = "https://orro.group"
+  location = "Sydney"
+  date_start = "2020-04-15"
+  date_end = "2023-04-15"
   description = """
   * Working to automate hybrid cloud and on-premise infrastructure.
   * Working to design, construct, improve and maintain Hybrid CI/CD pipelines.
@@ -32,7 +47,7 @@ date_format = "Jan 2006"
   * Maintaining security compliance of our Hybrid infrastructure.
  """
 [[experience]]
-  title = "SecDevOps Engineer"
+  title = "DevOps Engineer"
   company = "Deloitte"
   company_url = "https://www.deloitte.com.au"
   location = "Sydney"
