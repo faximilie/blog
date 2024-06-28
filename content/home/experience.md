@@ -25,11 +25,11 @@ date_format = "Jan 2006"
   date_start = "2020-04-15"
   date_end = "2023-04-15"
   description = """
-  * Performing penetration tests of bespoke applications for Financial instutions.
-  * Automating the provisioning of ephemerial containers to isolate client data.
-  * Using tools such as: Burpsuite, Nessus, Jira, and Confluence
+  * Performed penetration tests of bespoke applications for Financial instutions.
+  * Automated the provisioned of ephemerial containers to isolate client data.
+  * Used tools such as: Burpsuite, Nessus, Jira, and Confluence
   * Created detailed reports with actionable recommendations for found vulnerabilities.
-  * Working in a team to meet tight client deadlines
+  * Worked in a team to meet tight client deadlines
  """
 [[experience]]
   title = "SecDevOps Engineer"
@@ -39,12 +39,12 @@ date_format = "Jan 2006"
   date_start = "2020-04-15"
   date_end = "2023-04-15"
   description = """
-  * Working to automate hybrid cloud and on-premise infrastructure.
-  * Working to design, construct, improve and maintain Hybrid CI/CD pipelines.
-  * Developing Python and Perl applications to automate infrastructure deployment.
-  * Migrating the on-premise infrastructure to a re-deployable, re-producible and stable design.
-  * Ensuring security of all services and infrastructure deployed.
-  * Maintaining security compliance of our Hybrid infrastructure.
+  * Worked to automate hybrid cloud and on-premise infrastructure.
+  * Worked to design, construct, improve and maintain Hybrid CI/CD pipelines.
+  * Developed Python and Perl applications to automate infrastructure deployment.
+  * Migrated the on-premise infrastructure to a re-deployable, re-producible and stable design.
+  * Ensured security of all services and infrastructure deployed.
+  * Maintained security compliance of our Hybrid infrastructure.
  """
 [[experience]]
   title = "DevOps Engineer"
@@ -54,10 +54,10 @@ date_format = "Jan 2006"
   date_start = "2019-09-23"
   date_end = "2020-04-15"
   description = """
-  * Working to automate software deployment to AWS
-  * Working to design, construct, improve and maintain Cloud CI/CD pipelines
-  * Developing Java APIs using a Microservice architecture across a distributed team
-  * Ensuring security of Government infrastructure and Services
+  * Worked to automate software deployment to AWS
+  * Worked to design, construct, improve and maintain Cloud CI/CD pipelines
+  * Developed Java APIs used a Microservice architecture across a distributed team
+  * Ensured security of Government infrastructure and Services
  """
 [[experience]]
   title = "DevOps Engineer"
