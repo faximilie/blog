@@ -19,6 +19,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "SecDevOps Engineer"
+  company = "XSGroup AI"
+  company_url = "https://www.xsgroup.com/en"
+  location = "Sydney"
+  date_start = "2024-08-05"
+  description = """
+  * Performed automated build pipelines for C# and Python microservices
+  * Deployed and Managed Azure Kubernetes clusters, and other Azure resources
+  * Used tools such as: Terraform/OpenTofu, Vault/OpenBAO, and Milvus
+  * Designed and enforced secure practices business wide
+  * Designed and deployed IaaC across multiple environments
+ """
+
+[[experience]]
+  title = "SecDevOps Engineer"
   company = "Velvix/XSGroup"
   company_url = "https://www.xsgroup.com/en"
   location = "Sydney"
